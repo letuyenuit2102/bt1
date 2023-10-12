@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bai6.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1 class="text-signup">Phiếu đăng kí tham gia dự thưởng</h1>
+      <div style="display: flex">
+        <div style="width: 20px"></div>
+        <table>
+          <tr>
+            <td>Họ và tên</td>
+            <td>
+              <input placeholder="Lê Văn Tuyến" class="input1" />
+            </td>
+          </tr>
+          <tr>
+            <td>Địa chỉ</td>
+            <td>
+              <input placeholder="Lê Văn Tuyến" class="input2" />
+            </td>
+          </tr>
+          <tr>
+            <td>Điện thoại</td>
+            <td>
+              <input placeholder="Lê Văn Tuyến" class="input1" />
+            </td>
+          </tr>
+          <tr>
+            <td>Phái</td>
+            <td>
+              <div style="display: flex">
+                <div style="display: flex">
+                  <input type="radio" checked />
+                  <label>Nam</label>
+                </div>
+                <div>
+                  <input type="radio" />
+                  <label>Nữ</label>
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Sản phẩm</td>
+            <td>
+              <div>
+                <select name="cars" id="cars" multiple style="width: 50%">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="opel">Opel</option>
+                  <option value="audi">Audi</option>
+                </select>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Số dự đoán</td>
+            <td>
+              <input type="number" value="5" />
+            </td>
+          </tr>
+          <tfoot>
+            <tr>
+              <td
+                colspan="2"
+                style="text-align: center"
+                style="border-bottom: none !important"
+              >
+                <button>Đăng kí</button>
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+        <div style="width: 20px"></div>
+      </div>
+      <div style="height: 20px"></div>
+    </div>
+  </body>
+</html>

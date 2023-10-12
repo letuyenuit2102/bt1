@@ -1,0 +1,52 @@
+#main {
+  width: 400px;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  /* transform: translateY(10px); */
+  transform: translate(-50%, -50%);
+}
+.login-text {
+  color: #8a2be2;
+  text-align: center;
+}
+hr {
+  background-color: #0000ff;
+  height: 5px;
+}
+
+.class {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.class1 {
+}
+.class2 {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+}
+
+.span1 {
+  height: 27px;
+}
+.span2 {
+  height: 15px;
+}
+
+.span3 {
+  height: 10px;
+}
+
+button {
+  border-radius: 7px;
+}
+.end {
+  text-align: center;
+}
+input {
+  border: 1px solid #ccc;
+}

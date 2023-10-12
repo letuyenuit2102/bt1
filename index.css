@@ -1,0 +1,33 @@
+body {
+  background-color: yellow;
+}
+#main {
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#main div {
+  display: flex;
+  align-items: end;
+  width: 200px;
+  margin-right: 40px;
+  position: relative;
+  height: 350px;
+}
+#main div p {
+  position: absolute;
+  top: 96%;
+  right: 40%;
+}
+img {
+  width: 100%;
+}
+tr {
+  display: flex;
+  flex-direction: column;
+}
